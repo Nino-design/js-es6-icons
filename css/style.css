@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    color: rgb(29, 125, 204);
+}
+
+nav{
+    height: 50px;
+    background-color: rgb(29, 125, 204);
+    color: white;
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: lightgray;
+    
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightgray;
+    margin: 10px 30px;
+}
+
+
+.card{
+    width: 180px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
